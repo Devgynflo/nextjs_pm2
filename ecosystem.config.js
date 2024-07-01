@@ -8,7 +8,7 @@ module.exports = {
   deploy: {
     production: {
       user: "ubuntu",
-      host: "192.168.1.1.165",
+      host: "192.168.1.165",
       ref: "origin/main",
       repo: "https://github.com/Devgynflo/nextjs_pm2",
       path: "/home/ubuntu/",
